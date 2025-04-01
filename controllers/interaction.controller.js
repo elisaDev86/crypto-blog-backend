@@ -1,0 +1,1 @@
+// gestione delle operazioni relative alle interazioni tramite emoticon

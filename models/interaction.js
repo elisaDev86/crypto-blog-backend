@@ -1,0 +1,1 @@
+// schema per le interazioni tramite emoticon con riferimento all'utente
