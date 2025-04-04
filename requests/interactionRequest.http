@@ -1,0 +1,19 @@
+###AGGIUNGERE UNA REACTION ALLE CRYPTO
+POST http://localhost:5001/api/reactions/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjdmMDIwYTJjYWJiOGNhMmE1N2FmZjEyIn0sImlhdCI6MTc0MzgwMDIzMiwiZXhwIjoxNzUxNTc2MjMyfQ.t8vyXaMNH_xS0pIbTCdOFghCDkLVWjVHpk3_doP8JcA
+
+
+{
+  "crypto": "Bitcoin",
+  "emoji": "👍",
+  "userId": "12345"
+}
+
+
+
+###RECUPERARE TUTTE LE REAZIONI AD UNA SPECIFICA CRYPTO
+GET http://localhost:5001/api/reactions/Bitcoin
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjdmMDIwYTJjYWJiOGNhMmE1N2FmZjEyIn0sImlhdCI6MTc0MzgwMDIzMiwiZXhwIjoxNzUxNTc2MjMyfQ.t8vyXaMNH_xS0pIbTCdOFghCDkLVWjVHpk3_doP8JcA
+

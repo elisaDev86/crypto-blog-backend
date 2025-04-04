@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 // Definizione dello schema per l'utente
 const UserSchema = new mongoose.Schema({
     // Nome utente univoco e obbligatorio
-    username: {
+    name: {
         type: String,
         required: true,
         unique: true,

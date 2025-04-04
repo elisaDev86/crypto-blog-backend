@@ -1,0 +1,22 @@
+###REGISTRAZIONE
+POST http://localhost:5001/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Elisa",
+  "email": "mail@esempio.com",
+  "password": "Password123!"
+}
+
+###LOGIN
+POST http://localhost:5001/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "mail@esempio.com",
+  "password": "Password123!"
+}
+
+###RECUPERA I DATI UTENTE
+GET http://localhost:5001/api/auth/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjdmMDIwYTJjYWJiOGNhMmE1N2FmZjEyIn0sImlhdCI6MTc0MzgwMDIzMiwiZXhwIjoxNzUxNTc2MjMyfQ.t8vyXaMNH_xS0pIbTCdOFghCDkLVWjVHpk3_doP8JcA
